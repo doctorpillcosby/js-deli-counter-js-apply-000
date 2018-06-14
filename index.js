@@ -20,9 +20,10 @@ function takeANumber(katzDeliLine, name) {
 
 function takeANumber2(katDeliLine){
   
-  
-  katzDeliLine.push()
-  return "Welcome, you are" 
+  var nowServing = 1
+  katzDeliLine.push(nowServing)
+  return `Welcome you are number ${nowServing}`
+  }
   
   
   
