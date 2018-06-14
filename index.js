@@ -21,7 +21,7 @@ function takeANumber(katzDeliLine, name) {
 function takeANumber2(katDeliLine){
   
   katzDeliLine.push()
-  return "Welcome, you are "
+  return "Welcome, you are" katzDeliLine[0] + 1
   
   
   
